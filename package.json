@@ -31,7 +31,6 @@
     "simple-git-hooks": "^2.0.2"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
     "*.js": "eslint --fix"

@@ -8,9 +8,9 @@ The following
 
 ```css
 @env development {
-	:root {
-		color: darkred;
-	}
+  :root {
+    color: darkred;
+  }
 }
 ```
 
@@ -18,7 +18,7 @@ will output either
 
 ```css
 :root {
-	color: darkred;
+  color: darkred;
 }
 ```
 
@@ -62,8 +62,8 @@ Options are arbitrary key-value pairs defining, respectively, the at-rule names 
 
 ```javascript
 require('postcss-undecided')({
-	// Will correspond to `@env` in CSS
-	env: process.env.NODE_ENV
+  // Will correspond to `@env` in CSS
+  env: process.env.NODE_ENV
 });
 ```
 
